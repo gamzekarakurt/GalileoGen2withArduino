@@ -11,7 +11,7 @@ using System.IO.Ports;
 
 namespace motor
 {
-    public partial class MotorSur : Form
+    public partial class motorSur : Form
     {
         private SerialPort myport;
         public Form1()
@@ -20,7 +20,7 @@ namespace motor
             init();
         }
 
-        private void MotorSur_Load(object sender, EventArgs e)
+        private void motorSur_Load(object sender, EventArgs e)
         {
 
         }
